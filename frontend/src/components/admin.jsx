@@ -4,7 +4,7 @@ const CustomerOrdersTable = () => {
   return (
     <main className="table" id="customers_table">
       <section className="table__header">
-        <h1>Customer's Orders</h1>
+        <h1>music data</h1>
         <div className="input-group">
           <input type="search" placeholder="Search Data..." />
           <img src="images/search.png" alt="" />
@@ -25,20 +25,22 @@ const CustomerOrdersTable = () => {
         <table>
           <thead>
             <tr>
-              <th> Id <span className="icon-arrow">&UpArrow;</span></th>
-              <th> Customer <span className="icon-arrow">&UpArrow;</span></th>
-              <th> Location <span className="icon-arrow">&UpArrow;</span></th>
-              <th> Order Date <span className="icon-arrow">&UpArrow;</span></th>
-              <th> Status <span className="icon-arrow">&UpArrow;</span></th>
-              <th> Amount <span className="icon-arrow">&UpArrow;</span></th>
+              <th> Id </th>
+              <th> Music_title </th>
+              <th> Audio </th>
+              <th> Created_Date </th>
+              <th>Updated_Date</th>
+              <th> Status </th>
+              <th> Edit </th>
             </tr>
           </thead>
           <tbody>
             <tr>
                         <td> 1 </td>
-                        <td> <img src="images/Zinzu Chan Lee.jpg" alt=""/>Zinzu Chan Lee</td>
+                        <td> <img src="https://res.cloudinary.com/dpg78zw9q/image/upload/v1704969538/_0305fd8d-bb38-40c5-87d2-1c630c8804f9_dhrzrn.jpg" alt=""/>Zinzu Chan Lee</td>
                         <td> Seoul </td>
                         <td> 17 Dec, 2022 </td>
+                        <td>29 dec 2009</td>
                         <td>
                             <p class="status delivered">Delivered</p>
                         </td>
@@ -49,6 +51,7 @@ const CustomerOrdersTable = () => {
                         <td><img src="images/Jeet Saru.png" alt=""/> Jeet Saru </td>
                         <td> Kathmandu </td>
                         <td> 27 Aug, 2023 </td>
+                        <td>29 dec 2009</td>
                         <td>
                             <p class="status cancelled">Cancelled</p>
                         </td>
@@ -59,6 +62,7 @@ const CustomerOrdersTable = () => {
                         <td><img src="images/Sonal Gharti.jpg" alt=""/> Sonal Gharti </td>
                         <td> Tokyo </td>
                         <td> 14 Mar, 2023 </td>
+                        <td>29 dec 2009</td>
                         <td>
                             <p class="status shipped">Shipped</p>
                         </td>
@@ -69,6 +73,7 @@ const CustomerOrdersTable = () => {
                         <td><img src="images/Alson GC.jpg" alt=""/> Alson GC </td>
                         <td> New Delhi </td>
                         <td> 25 May, 2023 </td>
+                        <td>29 dec 2009</td>
                         <td>
                             <p class="status delivered">Delivered</p>
                         </td>
